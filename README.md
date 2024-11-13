@@ -2,4 +2,4 @@
 
 
 
-osmcv.netlify.app
+osmcv.netlify.app/
