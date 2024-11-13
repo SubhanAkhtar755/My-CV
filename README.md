@@ -1,5 +1,3 @@
 # My CV
 
-
-
-osmcv.netlify.app/
+https://app.netlify.com/sites/osmcv/configuration/general
