@@ -1,2 +1,2 @@
 # My CV
-# osmcv.netlify.app
+ osmcv.netlify.app
