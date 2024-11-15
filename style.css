@@ -1,3 +1,4 @@
+
 .icons img{
 width: 30px;
 padding: 0px;
@@ -6,9 +7,13 @@ margin-left: 10px;
 }
 .icons{
     margin-left: 10px;
+  
 }
+.icons img:hover{
+box-shadow: 2px 2px 20px rgb(216, 91, 23); ;
 
-* {
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -99,12 +104,22 @@ body {
 .profile {
     width: 100%;
     border-bottom: 2px solid #1B2631;
+
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
     border: 8px solid #1B2631;
+}
+.profile-image{
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+
 }
 
 .name {
@@ -115,6 +130,7 @@ body {
     text-align: center;
     font-weight: bold;
     padding: 1rem 0;
+    animation: glow 2s infinite ease-in-out;
 }
 
 .profession {
@@ -263,6 +279,19 @@ body {
     border-left: 3px solid #a5a3a3;
     padding-left: 5px;
 }
+
+
+@keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #f0f, 0 0 20px #0ff, 0 0 30px #f0f;
+    }
+    50% {
+      text-shadow: 0 0 20px #ff0, 0 0 30px #f00, 0 0 40px #ff0;
+    }
+    100% {
+      text-shadow: 0 0 10px #f0f, 0 0 20px #0ff, 0 0 30px #f0f;
+    }
+  } 
 
 
 /* Media queries */
