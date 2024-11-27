@@ -3,15 +3,15 @@
 width: 30px;
 padding: 0px;
 margin-left: 10px;
-
+transition: transform 0.5s;
 }
 .icons{
     margin-left: 10px;
   
 }
 .icons img:hover{
-box-shadow: 2px 2px 20px rgb(216, 91, 23); ;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+transform: translateY(-5px);
 }
 *{
     margin: 0;
